@@ -1,17 +1,26 @@
-# flutter_application_3
+# Flutter Application — Exercise 2 📱
 
-A new Flutter project.
+A multi-screen **Flutter** application built to practice structured data management, custom assets integration, navigation, and responsive UI design across platforms.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- **Structured Data Integration:** Loads and displays structured records from local datasets (`data/`).
+- **Custom Assets & Media:** Integrates local images, icons, and visual resources (`assets/`) for an engaging user interface.
+- **Multi-Screen Navigation:** Smooth routing between list/overview screens and detailed item views.
+- **Modular Widget Architecture:** Clean separation between data models, UI screens, and reusable widgets.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Framework:** [Flutter](https://flutter.dev/)
+- **Language:** [Dart](https://dart.dev/)
+- **Supported Platforms:** Android, iOS, Web, Windows, macOS & Linux
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+
+```text
+Exercici_2_Flutter/
+├── assets/          # Images, icons, and static media resources
+├── data/            # Local structured datasets / JSON files
+├── lib/             # Main Dart source code (screens, models, widgets)
+├── test/            # Widget and unit tests
+└── pubspec.yaml     # Project dependencies and asset declarations
